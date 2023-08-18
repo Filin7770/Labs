@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+</style>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Food Store</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <h1 class="header__heading">
+                <a href="index.html" class="header__link">Food Store</a>
+            </h1>
+            <nav class="navigation navigation">
+                <ul class="navigation__list list">
+                    <li class="list__text">
+                        <a href="#models" class="list__link"> Каталог </a>
+                    </li>
+                    <li class="list__text">
+                        <a href="#info" class="list__link"> О нас </a>
+                    </li>
+                    <li class="list__text">
+                        <a href="#contacts" class="list__link"> Контакты </a>
+                    </li>
+                    <li class="list__user">
+                        <button class="list__button">
+                            <img src="img/user.svg" alt="user" class="user__icon" />
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="user__list list">
+
+            </ul>
+        </div>
+    </header>
+    <section id="info" class="info">
+        <div class="info__wrapper">
+            <div class="info__header">
+                <p class="info__heading">
+                    Продаем продукты с 2016 года
+                </p>
+                <p class="info__text">
+                    Продукты всегда свежие, в наличии или под заказ
+                </p>
+            </div>
+            <button class="info__car">
+                <a href="" target="_blank" class="car">
+                    <p class="info__available">Продукты в наличии</p>
+                </a>
+            </button>
+            <button class="info__drive">
+                <a href="" target="_blank" class="test__drive">
+                    <p class="info__test">Сделать заказ</p>
+                </a>
+            </button>
+        </div>
+    </section>
+    <section id="models" class="models">
+        <div class="models__wrapper">
+            <h2 class="models__available">Продукты в наличии</h2>
+            <form class="search">
+                <input class="search__text" placeholder="Искать здесь...">
+                <button class="search__submit">
+                    <svg class="search__icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15.5 14H14.71L14.43 13.73C15.4439 12.554 16.0011 11.0527 16 9.5C16 8.21442 15.6188 6.95772 14.9046 5.8888C14.1903 4.81988 13.1752 3.98676 11.9874 3.49479C10.7997 3.00282 9.49279 2.87409 8.23192 3.1249C6.97104 3.3757 5.81285 3.99477 4.90381 4.90381C3.99477 5.81285 3.3757 6.97104 3.1249 8.23192C2.87409 9.49279 3.00282 10.7997 3.49479 11.9874C3.98676 13.1752 4.81988 14.1903 5.8888 14.9046C6.95772 15.6188 8.21442 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z"
+                            fill="black" />
+                    </svg>
+
+                </button>
+            </form>
+            <div class="models__category">
+                <p class="models__catalog">Каталог</p>
+                <form class="category">
+                    <select class="categories">
+                        <option value="r1">-- Выберите продукт --</option>
+                        <optgroup label="Вода и напитки">
+                            <option value="r1">Вода</option>
+                            <option value="r2">Газировка и тоники</option>
+                            <option value="r3">Соки и морсы</option>
+                            <option value="r3">Холодный чай и кофе</option>
+                        </optgroup>
+                        <optgroup label="Мясо, птица, рыба">
+                            <option value="r1">Мясо и птица</option>
+                            <option value="r2">Колбаса и сосиски</option>
+                            <option value="r3">Рыба и морепро­дукты</option>
+                            <option value="r3">Закуски и паштеты</option>
+
+                        </optgroup>
+                    </select>
+                </form>
+            </div>
+            <div class="grid">
+                <div class="models__card">
+                    <a href="./drink.html" class="card">
+                        <img class="models__img" src="img/1.jpg" alt="Напиток Лимонад Черноголовка" />
+                        <div class="models__body">
+                            <h3 class="models__name">Напиток Лимонад Черноголовка </h3>
+                            <h3 class="models__weight">500 мл </h3>
+                            <h3 class="models__price">75 ₽</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="models__card">
+                    <a href="" target="_blank" blank class="card">
+                        <img class="models__img" src="img/2.jpg" alt="Филе грудки цыплёнка кубиками Троекурово" />
+                        <div class="models__body">
+                            <h3 class="models__name">Филе грудки цыплёнка кубиками Троекурово </h3>
+                            <h3 class="models__weight">500г </h3>
+                            <h3 class="models__price">219 ₽</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="models__card">
+                    <a href="" target="_blank" blank class="card">
+                        <img class="models__img" src="img/3.jpg" alt="Макароны Barilla Farfalle бантики" />
+                        <div class="models__body">
+                            <h3 class="models__name">Макароны Barilla Farfalle бантики </h3>
+                            <h3 class="models__weight">400г </h3>
+                            <h3 class="models__price">145 ₽</h3>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <section>
+                <div class="wrapper">
+                    <h3 class="models__buy">Выгодные покупки с Food Store</h3>
+                    <div class="grid">
+                        <div class="models__marketing">
+                            <div class="flex">
+                                <img class="models__ruble" src="img/ruble.svg" alt="ruble">
+                                <h3 class="models__heading">Фиксированная цена</h3>
+                            </div>
+
+
+                            <h3 class="models__head">Сумма покупок не вырастет из-за доставки</h3>
+                        </div>
+                        <div class="models__marketing">
+                            <div class="flex">
+                                <img class="models__shield" src="img/shield.svg" alt="shield">
+                                <h3 class="models__heading">Безопасная оплата</h3>
+                            </div>
+
+                            <h3 class="models__head">Контролируем транзакции, если товар пришел не качественным, то
+                                вернём деньги</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+    </section>
+    <section id="contacts" class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__heading">
+                <h3 class="footer__head">Food Store</h3>
+                <p class="footer__text">
+                    ©️ 2016–2023, ООО «ФудCтор»
+                </p>
+                <p class="footer__text">
+                    Вся представленная на сайте информация, касающаяся продуктов и сервисного
+                    обслуживания, носит информационный характер и не является публичной офертой.
+                </p>
+                <div class="footer__information">
+                    <a href="https://t.me/Filin_77" target="_blank" class="information__link">
+                        <img src="img/tg 1.svg" alt="telegram" class="link__img-1" />
+                    </a>
+                    <a href="https://vk.com/max1m_77" target="_blank" class="information__link 2">
+                        <img src="img/vk 1.svg" alt="vkontakte" class="link__img-2" />
+                    </a>
+                    <a href="" target="_blank" class="information__link-3">
+                        <img src="img/inst 1.svg" alt="instagram" class="link__img-3" />
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>

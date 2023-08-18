@@ -1,0 +1,16 @@
+@media print {
+    .navigation__list{
+        display: none;
+    }
+    .footer__information {
+        display: none;
+    }
+    .information__heading,.information__text{
+        color: black;
+        text-shadow: none;
+    }
+    .footer__text {
+        display: block;
+        margin-left: 25px;
+    }
+}
