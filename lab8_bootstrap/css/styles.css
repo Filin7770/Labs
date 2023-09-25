@@ -104,6 +104,18 @@
 
 /* header */
 
+/* section 1 about */
+.page-section-1 {
+  background-color: #D9D9D9;
+  color: black;
+}
+/* section about */
+
+/* footer */
+
+/* footer */
+
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -11054,7 +11066,7 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color: #D9D9D9;
   color: #fff;
 }
 
